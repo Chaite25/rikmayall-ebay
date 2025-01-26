@@ -1,0 +1,135 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .pro-single-img {
+        height: 300px;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+
+    body,
+    .wel-come h4,
+    .support p,
+    .service-right a,
+    .tab-section p,
+    .single-care p,
+    .footer-area p,
+    .pro-content ul li,
+    .table_new tr td {
+        font-size: 13px;
+    }
+
+    .product-img {
+        margin-top: 10px;
+    }
+
+    .box-area h1 {
+        font-size: 16px;
+        padding: 10px;
+        line-height: 1.6;
+    }
+
+    .pro-title h3 {
+        font-size: 16px;
+    }
+
+    /* menu start */
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+    }
+
+    .menu-container {
+        margin: 0 0 50px;
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+        margin: 0;
+        overflow: hidden;
+        padding: 10px 0;
+        display: inline-block;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        padding: 10px 35px;
+        display: block;
+        font-size: 13px;
+        border: 0 !important;
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 60px;
+        z-index: 999;
+        left: 0;
+        background-color: #000;
+    }
+
+    /* menu end */
+
+    .pro-content h3,
+    .tab__content h3 {
+        font-size: 16px;
+    }
+
+    .box-content {
+        padding: 20px 10px 0;
+    }
+
+    .pro-content {
+        font-size: 13px;
+    }
+
+    .pro-content h4 {
+        font-size: 16px;
+    }
+
+
+    .copy-right p {
+        font-size: 14px;
+    }
+
+    .pro-single-img {
+        height: auto;
+    }
+
+    .pro-single-img img {
+        position: inherit;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
